@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Met Academy</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./frontend/fonts/padmaSetu/stylesheet.css">
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="./frontend/css/style.css">
+  
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-white sticky-top" style="box-shadow: 5px 0px 5px gray;">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          মেট একাডেমি
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                হোম
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                মেনু ১
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                মেনু ২
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                মেনু ৩
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="./frontend/img/Vector.jpg" alt="logo" style="width: 20px;height: auto;">
+                EN
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="btn btn-two mx-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                সব কোর্স
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-one" href="#">
+                লগ ইন
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="hero py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" 
+          style="
+          background: url('./frontend/img/education-day-arrangement-table-with-copy-space\ 1.png');
+          width: 100%;
+          height: 90vh;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          border-radius: 1rem;
+          display: flex;
+          align-items: center;
+          ">
+            <div>
+              <div class="row px-2">
+                <div class="col-md-5">
+                  <h1>
+                    <span class="text-two">
+                      বাংলা হিরো ডেমো
+                    </span>
+                    <span class="text-one">
+                      টেক্সট
+                    </span>
+                  </h1>
+                  <p class="text-one">
+                    স্কিল শেখার মাধ্যমে বদলে ফেলুন নিজের ভবিষ্যৎ
+                  </p>
+                  <p class="text-white py-4">
+                    জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ হয়ে সে জন্মগ্রহণ করে। বাঘ ভালুক তার জীবনযাত্রার পনেরো- আনা মূলধন নিয়ে আসে প্রকৃতির মালখানা থেকে। জীবরঙ্গভূমিতে মানুষ এসে দেখা দেয় দুই শূন্য হাতে মুঠো বেঁধে।
+                  </p>
+                  <div class="row justify-content-start">
+                    <div class="col-8">
+                      <div class="row">
+                        <a href="" class="btn btn-one">
+                          শেখা শুরু করুন
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row pt-4">
+                <div class="col-md-4">
+                  <div class="d-flex justify-content-around align-items-center border rounded p-3" style="background: rgba(252, 252, 252, 0.2);">
+                    <img src="./frontend/img/Rectangle 8.png" alt="">
+                    <div>
+                      <h5 class="text-two">
+                        বাংলা কার্ড ডেমো টেক্সট
+                      </h5>
+                      <p class="text-white">
+                        বাংলা কার্ড ডেমো টেক্সট
+                      </p>
+                    </div>
+                    <a href="" style="background: #F0BB5C; width: 40px;height: 40px;display: flex;justify-content: center;align-items: center;border-radius: 100%;font-size: 25px;"><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="d-flex justify-content-around align-items-center border rounded p-3" style="background: rgba(252, 252, 252, 0.2);">
+                    <img src="./frontend/img/Rectangle 8.png" alt="">
+                    <div>
+                      <h5 class="text-two">
+                        বাংলা কার্ড ডেমো টেক্সট
+                      </h5>
+                      <p class="text-white">
+                        বাংলা কার্ড ডেমো টেক্সট
+                      </p>
+                    </div>
+                    <a href="" style="background: #F0BB5C; width: 40px;height: 40px;display: flex;justify-content: center;align-items: center;border-radius: 100%;font-size: 25px;"><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="d-flex justify-content-around align-items-center border rounded p-3" style="background: rgba(252, 252, 252, 0.2);">
+                    <img src="./frontend/img/Rectangle 8.png" alt="">
+                    <div>
+                      <h5 class="text-two">
+                        বাংলা কার্ড ডেমো টেক্সট
+                      </h5>
+                      <p class="text-white">
+                        বাংলা কার্ড ডেমো টেক্সট
+                      </p>
+                    </div>
+                    <a href="" style="background: #F0BB5C; width: 40px;height: 40px;display: flex;justify-content: center;align-items: center;border-radius: 100%;font-size: 25px;"><i class="bi bi-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="" class="Courses">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="card py-4 bg-white">
+              <h3 class="text-center">
+                আমাদের কোর্সসমূহ
+              </h3>
+              <div class="row justify-content-center pb-4 px-3">
+
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card myCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="#" class="btn btn-one">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card myCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="#" class="btn btn-one">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card myCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="#" class="btn btn-one">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card myCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="#" class="btn btn-one">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card myCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="#" class="btn btn-one">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card myCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="#" class="btn btn-one">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card myCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="#" class="btn btn-one">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card myCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="#" class="btn btn-one">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-3 col-6">
+                  <div class="row">
+                    <a href="" class="btn btn-one">
+                      সব দেখুন
+                      <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="" class="py-5">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3 pb-md-0 pb-3">
+            <div class="card px-4 py-2" style="background: #C9E5E8; border: none;">
+              <h1>
+                ৭০০০+
+              </h1>
+              <h5>
+                জব প্লেসমেন্ট
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-3 pb-md-0 pb-3">
+            <div class="card px-4 py-2" style="background: #F1E2C5; border: none;">
+              <h1>
+                ১৫,০০০+
+              </h1>
+              <h5>
+               স্টুডেন্ট
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-3 pb-md-0 pb-3">
+            <div class="card px-4 py-2" style="background: #C9E5E8; border: none;">
+              <h1>
+                ৯০%
+              </h1>
+              <h5>
+                সাকসেস রেট
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card px-4 py-2" style="background: #F1E2C5; border: none;">
+              <h1>
+                ৪৬
+              </h1>
+              <h5>
+                অন গোয়িং কোর্স
+              </h5>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="" class="Testimonial py-5">
+      <div class="container">
+        <div class="row text-center">
+          <h3>
+            আমাদের মেন্টরদের কাছ থেকে বার্তা
+          </h3>
+          <p>
+            ২০০০- র বেশি গ্র্যাজুয়েট যারা পেয়েছেন জব, দেখে নিন কি বলছেন তাদের একাংশ
+          </p>
+        </div>
+        <div class="row">
+
+          <div class="col-md-3">
+            <div class="row">
+
+              <div class="col-12">
+                <div class="testimonialCard">
+                  <img src="./frontend/img/person1.png" alt="image" class="img-fluid">
+                  <div class="p-3">
+                    <p class="testimonialP">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <h5 class="testimonialT">Istiak Ahmed</h5>
+                    <p class="testimonialSubp">CEO, Avito</p>
+                    <div>
+                      <i class="bi bi-star-fill testimonialStar"></i>
+                      <i class="bi bi-star-fill testimonialStar"></i>
+                      <i class="bi bi-star-fill testimonialStar"></i>
+                      <i class="bi bi-star-fill testimonialStar"></i>
+                      <i class="bi bi-star-fill testimonialStar"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 pt-3">
+                <div class="testimonialCard">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="./frontend/img/person2.png" alt="image" class="img-fluid rounded-circle pt-2 ms-2">
+                    </div>
+                    <div class="col-9">
+                      <div class="p-1">
+                        <h5 class="testimonialT">Jon Sari</h5>
+                        <p class="testimonialSubp">CEO, Avito</p>
+                        <div>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                        </div>
+                        <p class="testimonialP">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+
+              <div class="col-12">
+                <div class="testimonialCard">
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="./frontend/img/person3.png" alt="image" class="img-fluid rounded">
+                    </div>
+                    <div class="col-6">
+                      <div class="p-3">
+                        <p class="testimonialP">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+                        <h5 class="testimonialT">Istiak Ahmed</h5>
+                        <p class="testimonialSubp">CEO, Avito</p>
+                        <div>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+         
+                </div>
+              </div>
+              <div class="col-12 pt-3">
+                <div class="testimonialCard">
+                  <div class="row px-4 py-2">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center">
+                        <img src="./frontend/img/person4.png" alt="image" class="img-fluid rounded">
+                        <div class="p-3">
+                          <h5 class="testimonialT">Istiak Ahmed</h5>
+                          <p class="testimonialSubp mb-0">CEO, Avito</p>
+                          <div>
+                            <i class="bi bi-star-fill testimonialStar"></i>
+                            <i class="bi bi-star-fill testimonialStar"></i>
+                            <i class="bi bi-star-fill testimonialStar"></i>
+                            <i class="bi bi-star-fill testimonialStar"></i>
+                            <i class="bi bi-star-fill testimonialStar"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="p-3">
+                        <p class="testimonialP">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                      </div>
+                    </div>
+                  </div>
+         
+                </div>
+              </div>
+              <div class="col-12 pt-3">
+                <div class="testimonialCard">
+                  <div class="row px-4 py-2">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center">
+                        <img src="./frontend/img/person4.png" alt="image" class="img-fluid rounded">
+                        <div class="p-3">
+                          <h5 class="testimonialT">Istiak Ahmed</h5>
+                          <p class="testimonialSubp mb-0">CEO, Avito</p>
+                          <div>
+                            <i class="bi bi-star-fill testimonialStar"></i>
+                            <i class="bi bi-star-fill testimonialStar"></i>
+                            <i class="bi bi-star-fill testimonialStar"></i>
+                            <i class="bi bi-star-fill testimonialStar"></i>
+                            <i class="bi bi-star-fill testimonialStar"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="p-3">
+                        <p class="testimonialP">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                      </div>
+                    </div>
+                  </div>
+         
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="row">
+
+              <div class="col-12">
+                <div class="testimonialCard">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="./frontend/img/person2.png" alt="image" class="img-fluid rounded-circle pt-2 ms-2">
+                    </div>
+                    <div class="col-9">
+                      <div class="p-1">
+                        <h5 class="testimonialT">Jon Sari</h5>
+                        <p class="testimonialSubp">CEO, Avito</p>
+                        <div>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                        </div>
+                        <p class="testimonialP">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 pt-3">
+                <div class="testimonialCard">
+                  <div class="row">
+                    <div class="col-3">
+                      <img src="./frontend/img/person2.png" alt="image" class="img-fluid rounded-circle pt-2 ms-2">
+                    </div>
+                    <div class="col-9">
+                      <div class="p-1">
+                        <h5 class="testimonialT">Jon Sari</h5>
+                        <p class="testimonialSubp">CEO, Avito</p>
+                        <div>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                          <i class="bi bi-star-fill testimonialStar"></i>
+                        </div>
+                        <p class="testimonialP">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pt-5 bg-white">
+      <div class="container">
+        <div class="row text-md-start text-center">
+          <div class="col-md-3 pb-md-0 pb-3">
+            <a href="" class="fs-1 fw-bold">Logo</a>
+          </div>
+          <div class="col-md-3 pb-md-0 pb-3">
+            <h4 class="pb-2">Information</h4>
+            <a href="" class="d-block">Privacy</a>
+            <a href="" class="d-block">FAQ</a>
+            <a href="" class="d-block">Partners</a>
+            <a href="" class="d-block">Blog</a>
+            <a href="" class="d-block">Contact</a>
+          </div>
+          <div class="col-md-3 pb-md-0 pb-3">
+            <h4 class="pb-2">Menu</h4>
+            <a href="" class="d-block">For a cupon</a>
+            <a href="" class="d-block">For him</a>
+            <a href="" class="d-block">For her</a>
+          </div>
+          <div class="col-md-3 pb-md-0 pb-3 text-md-end text-center">
+            <a href="" class="btn btn-dark">Request a call</a>
+            <p class="mb-0">+13423432432</p>
+            <p>info@gmail.com</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row text-md-start text-center">
+          <div class="col-12 pb-3">
+            <a href=""><i class="bi bi-facebook fs-2 pe-2"></i></a>
+            <a href=""><i class="bi bi-youtube fs-2 pe-2"></i></a>
+            <a href=""><i class="bi bi-linkedin fs-2 pe-2"></i></a>
+            <a href=""><i class="bi bi-send-fill fs-2"></i></a>
+            <a href=""><i class="bi bi-whatsapp fs-2 pe-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./frontend/js/main.js"></script>
+
+  </body>
+</html>

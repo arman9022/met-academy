@@ -1,0 +1,95 @@
+*{
+  font-family: 'Li Padmasetu Unicode';
+}
+p{
+  font-family: 'Li Padmasetu Unicode';
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+body{
+  background: #F2F2F2;
+}
+.text-one{ color:#F0BB5C; }
+.text-two{ color:#68C8D2; }
+.btn-one {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #F0BB5C;
+    --bs-btn-border-color: #F0BB5C;
+    box-shadow: 0px 2px 5px gray;
+
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #F0BB5C;
+    --bs-btn-hover-border-color: #F0BB5C;
+
+    --bs-btn-focus-shadow-rgb: 217,164,6;
+
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #F0BB5C;
+    --bs-btn-active-border-color: #F0BB5C;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #F0BB5C;
+    --bs-btn-disabled-border-color: #F0BB5C;
+}
+.btn-two {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #68C8D2;
+    --bs-btn-border-color: #68C8D2;
+    box-shadow: 0px 2px 5px gray;
+
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #68C8D2;
+    --bs-btn-hover-border-color: #68C8D2;
+
+    --bs-btn-focus-shadow-rgb: 217,164,6;
+
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #68C8D2;
+    --bs-btn-active-border-color: #68C8D2;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #68C8D2;
+    --bs-btn-disabled-border-color: #68C8D2;
+}
+.text-bg-one {
+  color: #000!important;
+  background-color: #F0BB5C!important;
+  font-weight: 400;
+}
+.card-title{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.myCard:hover{
+  background: #E1F4F6;
+}
+.testimonialCard{
+  border-radius: 1rem;
+  border: 1px solid rgb(173, 173, 173);
+}
+.testimonialP{
+  font-family: "Poppins", sans-serif;
+}
+.testimonialT{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.testimonialSubp{
+  font-family: "Poppins", sans-serif;
+  color: #818181;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.testimonialStar{
+  color: #818181;
+}
+footer a, footer h4, footer p{
+  font-family: "Poppins", sans-serif;
+}

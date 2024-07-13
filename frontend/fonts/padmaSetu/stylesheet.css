@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Li Padmasetu Unicode';
+    src: url('LiPadmasetuUnicode.woff2') format('woff2'),
+        url('LiPadmasetuUnicode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
