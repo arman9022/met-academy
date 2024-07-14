@@ -1,8 +1,5 @@
 *{
-  font-family: 'Li Padmasetu Unicode';
-}
-p{
-  font-family: 'Li Padmasetu Unicode';
+  font-family: "Inter", sans-serif;
 }
 a{
   text-decoration: none;
@@ -11,13 +8,23 @@ a{
 body{
   background: #F2F2F2;
 }
+.font1{
+  font-family: 'Li Padmasetu Unicode';
+}
+
 .text-one{ color:#F0BB5C; }
 .text-two{ color:#68C8D2; }
+.text-three{ color:#9947FE; }
+
+.bg-one{ background:#F0BB5C; }
+.bg-two{ background:#68C8D2; }
+.bg-three{ background:#9947FE; }
+
 .btn-one {
     --bs-btn-color: #000;
     --bs-btn-bg: #F0BB5C;
     --bs-btn-border-color: #F0BB5C;
-    box-shadow: 0px 2px 5px gray;
+    box-shadow: 0px 3px 2px gray;
 
     --bs-btn-hover-color: #000;
     --bs-btn-hover-bg: #F0BB5C;
@@ -38,7 +45,7 @@ body{
     --bs-btn-color: #fff;
     --bs-btn-bg: #68C8D2;
     --bs-btn-border-color: #68C8D2;
-    box-shadow: 0px 2px 5px gray;
+    box-shadow: 0px 3px 2px gray;
 
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #68C8D2;
@@ -61,28 +68,27 @@ body{
   font-weight: 400;
 }
 .card-title{
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
 }
-.myCard:hover{
+.courseCard:hover{
   background: #E1F4F6;
+}
+.contentCard{
+  background: white;
+  border-radius: .5rem;
+  box-shadow: 0px 5px 2px gray;
 }
 .testimonialCard{
   border-radius: 1rem;
   border: 1px solid rgb(173, 173, 173);
 }
-.testimonialP{
-  font-family: "Poppins", sans-serif;
-}
 .testimonialT{
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 .testimonialSubp{
-  font-family: "Poppins", sans-serif;
   color: #818181;
   padding-top: 0px;
   margin-top: 0px;
@@ -90,6 +96,18 @@ body{
 .testimonialStar{
   color: #818181;
 }
-footer a, footer h4, footer p{
-  font-family: "Poppins", sans-serif;
+.login-input {
+  border: 3px solid #F0BB5C;
+}
+.login-input:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #F0BB5C;
+  outline: 0;
+  box-shadow: none;
+}
+.courseSide{
+  background: #F2F2F2;
+  border-radius: .5rem;
+  border: 2px solid #D2D2D2;
 }
