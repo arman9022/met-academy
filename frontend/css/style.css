@@ -108,6 +108,34 @@ body{
 .courseCard:hover{
   background: #E1F4F6;
 }
+.course-mini-card{
+  background: #F8F8F8;
+  border: 2px solid #CBCBCB;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: .8rem;
+}
+.course-mini-card:hover{
+  background: #F0BB5C;
+  cursor: pointer;
+}
+.course-mini-card:hover .course-mini-icon-box{
+  background: #68C8D2;
+}
+.course-mini-icon-box{
+  width: 30px;
+  height: 30px;
+  background: #F0BB5C;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.course-mini-title{
+  font-size: 12px;
+}
+.course-mini-sub-title{
+  font-size: 10px;
+}
 .contentCard{
   background: white;
   border-radius: .5rem;
