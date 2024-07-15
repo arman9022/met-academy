@@ -21,6 +21,7 @@
 
     <!-- custom css -->
     <link rel="stylesheet" href="./frontend/css/style.css">
+    <link rel="stylesheet" href="./frontend/css/mobile.css">
   
   </head>
   <body>
@@ -33,20 +34,20 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <form class="d-flex" role="search">
+        <form class="d-md-flex d-none" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
         </form>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link font1 active" aria-current="page" href="./index.html">
+              <a class="nav-link font1 active" aria-current="page" href="./index.html#Hero">
                 হোম
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link font1" href="#">
-                মেনু ১
+              <a class="nav-link font1" href="./index.html#Courses">
+                কোর্স
               </a>
             </li>
             <li class="nav-item">
@@ -78,7 +79,7 @@
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="btn btn-two font1 mx-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="btn btn-two font1 mx-md-2 mx-0 mb-md-0 mb-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 সব কোর্স
               </a>
               <ul class="dropdown-menu">
@@ -105,111 +106,328 @@
       </div>
     </nav>
 
-    <section id="hero" class="hero py-4">
+    <section id="Hero" class="hero pt-4">
       <div class="container">
         <div class="row">
-          <div class="col-12" 
-          style="
-          background: url('./frontend/img/education-day-arrangement-table-with-copy-space\ 1.png');
-          width: 100%;
-          height: 90vh;
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-          border-radius: 1rem;
-          display: flex;
-          align-items: center;
-          ">
+          <div class="hero-background col-12 py-5">
             <div>
-              <div class="row px-2">
-                <div class="col-md-5">
-                  <h1 class="">
-                    <span class="text-two font1">
-                      বাংলা হিরো ডেমো
-                    </span>
-                    <span class="text-one font1">
-                      টেক্সট
-                    </span>
-                  </h1>
-                  <p class="text-one font1">
-                    স্কিল শেখার মাধ্যমে বদলে ফেলুন নিজের ভবিষ্যৎ
-                  </p>
-                  <p class="text-white font1 py-4">
-                    জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ হয়ে সে জন্মগ্রহণ করে। বাঘ ভালুক তার জীবনযাত্রার পনেরো- আনা মূলধন নিয়ে আসে প্রকৃতির মালখানা থেকে। জীবরঙ্গভূমিতে মানুষ এসে দেখা দেয় দুই শূন্য হাতে মুঠো বেঁধে।
-                  </p>
-                  <div class="row justify-content-start">
-                    <div class="col-8">
-                      <div class="row">
-                        <a href="" class="btn btn-one font1">
-                          শেখা শুরু করুন
-                          <i class="bi bi-arrow-right"></i>
-                        </a>
+
+              <div class="row justify-content-center">
+                <div class="col-md-10">
+                  <div class="row px-2">
+                    <div class="col-md-6">
+                      <h1 class="hero-title">
+                        <span class="text-two font1">
+                          বাংলা হিরো ডেমো
+                        </span>
+                        <span class="text-one font1">
+                          টেক্সট
+                        </span>
+                      </h1>
+                      <p class="hero-sub-title text-one font1">
+                        স্কিল শেখার মাধ্যমে বদলে ফেলুন নিজের ভবিষ্যৎ
+                      </p>
+                      <p class="hero-para text-white font1 py-3">
+                        জীবের মধ্যে সবচেয়ে সম্পূর্ণতা মানুষের। কিন্তু সবচেয়ে অসম্পূর্ণ হয়ে সে জন্মগ্রহণ করে। বাঘ ভালুক তার জীবনযাত্রার পনেরো- আনা মূলধন নিয়ে আসে প্রকৃতির মালখানা থেকে। জীবরঙ্গভূমিতে মানুষ এসে দেখা দেয় দুই শূন্য হাতে মুঠো বেঁধে।
+                      </p>
+                      <div class="row justify-content-start">
+                        <div class="col-8">
+                          <div class="row">
+                            <a href="" class="btn btn-one font1">
+                              শেখা শুরু করুন
+                              <i class="bi bi-arrow-right"></i>
+                            </a>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
+                  
+                  <div class="row pt-4">
+    
+                    <div class="col-md-4">
+                      <div class="hero-card">
+                        <img src="./frontend/img/Rectangle 8.png" alt="">
+                        <div class="">
+                          <h5 class="hero-card-title text-two font1">
+                            বাংলা কার্ড ডেমো টেক্সট
+                          </h5>
+                          <p class="hero-card-sub-title text-white font1 my-0">
+                            বাংলা কার্ড ডেমো টেক্সট
+                          </p>
+                        </div>
+                        <a href="" style="background: #F0BB5C; width: 30px;height: 30px;display: flex;justify-content: center;align-items: center;border-radius: 100%;font-size: 20px;"><i class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 py-md-0 py-3">
+                      <div class="hero-card">
+                        <img src="./frontend/img/Rectangle 8.png" alt="">
+                        <div class="">
+                          <h5 class="hero-card-title text-two font1">
+                            বাংলা কার্ড ডেমো টেক্সট
+                          </h5>
+                          <p class="hero-card-sub-title text-white font1 my-0">
+                            বাংলা কার্ড ডেমো টেক্সট
+                          </p>
+                        </div>
+                        <a href="" style="background: #F0BB5C; width: 30px;height: 30px;display: flex;justify-content: center;align-items: center;border-radius: 100%;font-size: 20px;"><i class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="hero-card">
+                        <img src="./frontend/img/Rectangle 8.png" alt="">
+                        <div class="">
+                          <h5 class="hero-card-title text-two font1">
+                            বাংলা কার্ড ডেমো টেক্সট
+                          </h5>
+                          <p class="hero-card-sub-title text-white font1 my-0">
+                            বাংলা কার্ড ডেমো টেক্সট
+                          </p>
+                        </div>
+                        <a href="" style="background: #F0BB5C; width: 30px;height: 30px;display: flex;justify-content: center;align-items: center;border-radius: 100%;font-size: 20px;"><i class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+    
+                  </div>
                 </div>
               </div>
-              
-              <div class="row pt-4">
-                <div class="col-md-4">
-                  <div class="d-flex justify-content-around align-items-center border rounded p-3" style="background: rgba(252, 252, 252, 0.2);">
-                    <img src="./frontend/img/Rectangle 8.png" alt="">
-                    <div>
-                      <h5 class="text-two font1">
-                        বাংলা কার্ড ডেমো টেক্সট
-                      </h5>
-                      <p class="text-white font1">
-                        বাংলা কার্ড ডেমো টেক্সট
-                      </p>
-                    </div>
-                    <a href="" style="background: #F0BB5C; width: 40px;height: 40px;display: flex;justify-content: center;align-items: center;border-radius: 100%;font-size: 25px;"><i class="bi bi-arrow-right"></i></a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="d-flex justify-content-around align-items-center border rounded p-3" style="background: rgba(252, 252, 252, 0.2);">
-                    <img src="./frontend/img/Rectangle 8.png" alt="">
-                    <div>
-                      <h5 class="text-two font1">
-                        বাংলা কার্ড ডেমো টেক্সট
-                      </h5>
-                      <p class="text-white font1">
-                        বাংলা কার্ড ডেমো টেক্সট
-                      </p>
-                    </div>
-                    <a href="" style="background: #F0BB5C; width: 40px;height: 40px;display: flex;justify-content: center;align-items: center;border-radius: 100%;font-size: 25px;"><i class="bi bi-arrow-right"></i></a>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="d-flex justify-content-around align-items-center border rounded p-3" style="background: rgba(252, 252, 252, 0.2);">
-                    <img src="./frontend/img/Rectangle 8.png" alt="">
-                    <div>
-                      <h5 class="text-two font1">
-                        বাংলা কার্ড ডেমো টেক্সট
-                      </h5>
-                      <p class="text-white font1">
-                        বাংলা কার্ড ডেমো টেক্সট
-                      </p>
-                    </div>
-                    <a href="" style="background: #F0BB5C; width: 40px;height: 40px;display: flex;justify-content: center;align-items: center;border-radius: 100%;font-size: 25px;"><i class="bi bi-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="" class="Courses">
+    <section id="Courses" class="Courses pt-4">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12">
-            <div class="card py-4 bg-white">
-              <h3 class="text-center font1">
+            <div class="card py-5 bg-white">
+              <h3 class="text-center font1 pb-3">
                 আমাদের কোর্সসমূহ
               </h3>
               <div class="row justify-content-center pb-4 px-3">
 
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card courseCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one font1">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title font1">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="./course.html" class="btn btn-one font1">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card courseCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one font1">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title font1">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="./course.html" class="btn btn-one font1">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card courseCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one font1">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title font1">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="./course.html" class="btn btn-one font1">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card courseCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one font1">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title font1">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="./course.html" class="btn btn-one font1">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card courseCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one font1">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title font1">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="./course.html" class="btn btn-one font1">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card courseCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one font1">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title font1">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="./course.html" class="btn btn-one font1">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-12 pb-3">
+                  <div class="card courseCard">
+                    <img src="./frontend/img/course.png" class="card-img-top" alt="...">
+                    <div class="py-2 justify-content-around d-flex">
+                      <span class="badge text-bg-one font1">
+                        ব্যাচ ২
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-people"></i>
+                        ১২২ সিট বাকি
+                      </span>
+                      <span class="badge text-bg-one font1">
+                        <i class="bi bi-calendar2-plus"></i>
+                        ২২ দিন বাকি
+                      </span>
+                    </div>
+                    <hr class="py-0 my-0">
+                    <div class="card-body">
+                      <h5 class="card-title font1">
+                        Full Stack Web Development with Python, Django & React
+                      </h5>
+                      <div class="row px-2">
+                        <a href="./course.html" class="btn btn-one font1">
+                          বিস্তারিত দেখি
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
                 <div class="col-md-3 col-12 pb-3">
                   <div class="card courseCard">
                     <img src="./frontend/img/course.png" class="card-img-top" alt="...">
@@ -259,11 +477,62 @@
       </div>
     </section>
 
-    <section id="" class="py-5">
+    <section id="VideoTestimonial" class="VideoTestimonial pt-4">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="card py-5 bg-white">
+              <h3 class="text-center font1 pb-3">
+                আমাদের মেন্টরদের কাছ থেকে বার্তা
+              </h3>
+              <div class="row justify-content-center pb-4 px-3">
 
-          <div class="col-md-3 pb-md-0 pb-3">
+                <div class="col-12">
+
+                  <div class="row justify-content-center align-items-center text-end">
+                    <div class="col-md-9 pb-3">
+                      <img src="./frontend/img/video/one.png" alt="image" class="object-fit-cover img-fluid">
+                    </div>
+                    <div class="col-md-3 pb-3">
+                      <img src="./frontend/img/video/two.png" alt="image" class="object-fit-cover img-fluid">
+                    </div>
+                  </div>
+                  <div class="row justify-content-center align-items-center text-end">
+                    <div class="col-md-6 pb-3">
+                      <img src="./frontend/img/video/three.png" alt="image" class="object-fit-cover img-fluid">
+                    </div>
+                    <div class="col-md-3 pb-3">
+                      <img src="./frontend/img/video/four.png" alt="image" class="object-fit-cover img-fluid">
+                    </div>
+                    <div class="col-md-3 pb-3">
+                      <img src="./frontend/img/video/five.png" alt="image" class="object-fit-cover img-fluid">
+                    </div>
+                  </div>
+                  
+                </div>
+
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-3 col-6">
+                  <div class="row">
+                    <a href="" class="btn btn-one font1">
+                      সব দেখুন
+                      <i class="bi bi-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Achievement" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+
+          <div class="col-md-3 col-8 pb-md-0 pb-3">
             <div class="card px-4 py-2" style="background: #C9E5E8; border: none;">
               <h1 class="font1">
                 ৭০০০+
@@ -273,7 +542,7 @@
               </h5>
             </div>
           </div>
-          <div class="col-md-3 pb-md-0 pb-3">
+          <div class="col-md-3 col-8 pb-md-0 pb-3">
             <div class="card px-4 py-2" style="background: #F1E2C5; border: none;">
               <h1 class="font1">
                 ১৫,০০০+
@@ -283,7 +552,7 @@
               </h5>
             </div>
           </div>
-          <div class="col-md-3 pb-md-0 pb-3">
+          <div class="col-md-3 col-8 pb-md-0 pb-3">
             <div class="card px-4 py-2" style="background: #C9E5E8; border: none;">
               <h1 class="font1">
                 ৯০%
@@ -293,7 +562,7 @@
               </h5>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-8">
             <div class="card px-4 py-2" style="background: #F1E2C5; border: none;">
               <h1 class="font1">
                 ৪৬
@@ -308,7 +577,7 @@
       </div>
     </section>
 
-    <section id="" class="Testimonial py-5">
+    <section id="Testimonial" class="Testimonial py-5">
       <div class="container">
         <div class="row text-center">
           <h3 class="font1">
